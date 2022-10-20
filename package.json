@@ -86,7 +86,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Automattic/mongoose.git"
+    "url": "git://github.com/alejandro-martinez/mongoose-lv"
   },
   "homepage": "http://mongoosejs.com",
   "browser": "./browser.js",
