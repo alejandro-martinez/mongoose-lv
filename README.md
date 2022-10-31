@@ -1,3 +1,20 @@
+# mongoose-lv
+
+Why this package? This package is a fork of mongoose project version 5.6.0. We found a bug related to transactions and that bug was fix in 5.7.12, we tried to update mongoose to that version but we realized it contained a lot of breaking changes. 
+
+So the solution we arrived was to fork the official project, apply only the code change to fix the bug and use this forked package instead of the official.
+
+Bug details here:
+
+When using transactions, sometimes calling mongoose.startSession hangs forever
+
+Bug was reported here: startSession() hangs on primary failover of a replica set · Issue #8319 · Automattic/mongoose
+
+and was fixed in version 5.7.12
+
+chore: release 5.7.12 · Automattic/mongoose@33412d9
+
+
 # Mongoose
 
 Mongoose is a [MongoDB](https://www.mongodb.org/) object modeling tool designed to work in an asynchronous environment.
